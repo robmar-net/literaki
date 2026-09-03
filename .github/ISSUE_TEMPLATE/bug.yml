@@ -1,0 +1,61 @@
+name: 🐛 Problem / Bug
+description: Coś nie działa. / Something is broken.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Pisz po polsku, angielsku, hiszpańsku lub ukraińsku — dowolnie.
+        Write in Polish, English, Spanish or Ukrainian — whichever suits you.
+  - type: textarea
+    id: what
+    attributes:
+      label: Co się stało? / What happened?
+      description: Co zrobiłeś/zrobiłaś i co się wydarzyło zamiast tego, czego oczekiwałeś/oczekiwałaś.
+    validations:
+      required: true
+  - type: input
+    id: game-language
+    attributes:
+      label: Język gry / Game language
+      description: Polski, English, Español czy Українська?
+      placeholder: polski
+    validations:
+      required: false
+  - type: input
+    id: ui-language
+    attributes:
+      label: Język interfejsu / Interface language
+      placeholder: polski
+    validations:
+      required: false
+  - type: input
+    id: browser
+    attributes:
+      label: Przeglądarka i system / Browser and system
+      placeholder: Chrome 141, Windows 11
+    validations:
+      required: true
+  - type: input
+    id: table
+    attributes:
+      label: Adres stołu / Table address
+      description: Skopiuj adres z paska przeglądarki, jeśli problem był przy stole.
+      placeholder: https://literaki.fly.dev/t/...
+    validations:
+      required: false
+  - type: input
+    id: when
+    attributes:
+      label: Kiedy? / When?
+      description: Data i mniej więcej godzina — po tym odnajdziemy to w logach.
+      placeholder: 2026-09-04, ~21:30
+    validations:
+      required: false
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Zrzut ekranu / Screenshot
+      description: Przeciągnij obrazek tutaj. Bardzo pomaga. / Drag an image here. It helps a lot.
+    validations:
+      required: false

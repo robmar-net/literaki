@@ -1,0 +1,16 @@
+name: 💡 Propozycja / Idea
+description: Czegoś brakuje albo dałoby się zrobić lepiej. / Something is missing, or could be better.
+labels: [idea]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Pisz po polsku, angielsku, hiszpańsku lub ukraińsku — dowolnie.
+        Write in Polish, English, Spanish or Ukrainian — whichever suits you.
+  - type: textarea
+    id: idea
+    attributes:
+      label: Propozycja / The idea
+      description: Co i po co. Krótko wystarczy. / What, and what for. Short is fine.
+    validations:
+      required: true
