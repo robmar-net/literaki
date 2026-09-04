@@ -7,6 +7,11 @@ body:
       value: |
         Pisz po polsku, angielsku, hiszpańsku lub ukraińsku — dowolnie.
         Write in Polish, English, Spanish or Ukrainian — whichever suits you.
+        Escriba en polaco, inglés, español o ucraniano — como prefiera.
+        Пишіть польською, англійською, іспанською або українською — як зручно.
+
+        *Etykiety poniżej są po polsku i angielsku — odpowiadaj w swoim języku.*
+        *The labels below are Polish and English — answer in your own language.*
   - type: textarea
     id: idea
     attributes:
