@@ -3,7 +3,7 @@
 The Polish colour-bonus crossword tile game, in your browser. Two to four players,
 a chess clock, and four playable languages.
 
-### ▶ [Play](https://literaki.fly.dev)
+### ▶ [Play](https://literakilounge.com)
 
 ### 📖 Wiki — [Polski](https://github.com/robmar-net/literaki/wiki) · [English](https://github.com/robmar-net/literaki/wiki/English) · [Español](https://github.com/robmar-net/literaki/wiki/Espanol) · [Українська](https://github.com/robmar-net/literaki/wiki/Ukrainska)
 
