@@ -7,6 +7,8 @@ a chess clock, and four playable languages.
 
 ### 📖 Wiki — [Polski](https://github.com/robmar-net/literaki/wiki) · [English](https://github.com/robmar-net/literaki/wiki/English) · [Español](https://github.com/robmar-net/literaki/wiki/Espanol) · [Українська](https://github.com/robmar-net/literaki/wiki/Ukrainska)
 
+### 🛠️ [How we build it](https://github.com/robmar-net/literaki/wiki/How-we-build) — written with AI coding agents
+
 ### 🐛 [Report a problem](https://github.com/robmar-net/literaki/issues/new/choose)
 
 ---
