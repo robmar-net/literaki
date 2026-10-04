@@ -46,7 +46,7 @@ body:
     attributes:
       label: Adres stołu / Table address
       description: Skopiuj adres z paska przeglądarki, jeśli problem był przy stole.
-      placeholder: https://literaki.fly.dev/t/...
+      placeholder: https://literakilounge.com/?table=...
     validations:
       required: false
   - type: input
